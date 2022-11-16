@@ -1,0 +1,100 @@
+.title-card {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    filter: invert(100%) sepia(17%) saturate(0%) hue-rotate(187deg) brightness(110%) contrast(92%);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    margin-right: 10px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+li:hover:after {
+    width: 100%;
+    background: whitesmoke;
+}
+
+a:hover:after {
+    transition: width .5s ease, background-color .5s ease;
+}
+
+button {
+    background-color: whitesmoke;
+    color: rebeccapurple;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+
+@media only screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        justify-content: center;
+    }
+}
