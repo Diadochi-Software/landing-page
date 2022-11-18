@@ -1,0 +1,31 @@
+.service-card {
+    width: 250px;
+    height: 400px;
+
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-card-header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+
+.service-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 00px) {
+    .service-card {
+        width: 90%;
+        height: min-content;
+    }
+}
