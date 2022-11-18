@@ -1,4 +1,5 @@
 import './banner.css';
+import {Player} from "@lottiefiles/react-lottie-player";
 
 export default function Banner() {
 
@@ -6,10 +7,14 @@ export default function Banner() {
         <div>
             <div className={'banner-container'}>
                 <div className={'banner-text-container'}>
-                    <div className={"banner-text"}> We leverage <b>technology</b> to make your <strong>dreams</strong> come true
+                    <div className={"banner-text"}> We leverage <b>technology</b> to make
+                        your <strong>dreams</strong> come true
                     </div>
                 </div>
-                <img src={"https://via.placeholder.com/468x760?text=a+cool+banner"} alt={"banner"}/>
+                <Player
+                    loop
+                    autoplay
+                    src={"https://assets5.lottiefiles.com/packages/lf20_lMdZ2NUeMB.json"}/>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#9370DBFF" fillOpacity="1"

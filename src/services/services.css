@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: baseline;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .services-description {
@@ -20,7 +21,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 
