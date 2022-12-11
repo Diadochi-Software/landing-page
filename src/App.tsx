@@ -4,6 +4,10 @@ import Navbar from "./nav/Navbar";
 import Banner from "./banner/Banner";
 import Services from "./services/Services";
 
+function Footer() {
+    return null;
+}
+
 function App() {
     return (
         <div>
@@ -13,6 +17,9 @@ function App() {
             <Banner/>
             <div className={"container"}>
                 <Services/>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-.services {
+#services {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
     width: 100%;
@@ -19,14 +19,13 @@
 .services-description {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
     align-items: baseline;
     justify-content: center;
 }
 
 .services-text {
-    width: 300px;
+    width: 350px;
     text-align: justify;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;

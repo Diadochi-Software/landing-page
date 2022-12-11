@@ -7,7 +7,7 @@ export default function Navbar() {
             <TitleCard/>
             <nav>
                 <li><a href={'about'}>About</a></li>
-                <li><a href={'services'}>Services</a></li>
+                <li><a id={'services'}>Services</a></li>
                 <li><a href={'our_work'}>Our Work</a></li>
                 <li><a href={'blog'}>Blog</a></li>
                 <li><a href={'faq'}>FAQ</a></li>

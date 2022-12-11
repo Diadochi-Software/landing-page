@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 
 export default function Services() {
     return (
-        <div className={"services"}>
+        <div id={"services"}>
             <div className={'services-header'}>
                 <div className={"title-container"}>
                     <h2>Our Services</h2>
