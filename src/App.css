@@ -3,6 +3,11 @@
     color: whitesmoke;
 }
 
+.footer-container {
+    background-color: #2d2d2d;
+    color: gray;
+}
+
 .container {
     width: 100%;
     display: flex;

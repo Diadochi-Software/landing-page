@@ -3,10 +3,7 @@ import './App.css';
 import Navbar from "./nav/Navbar";
 import Banner from "./banner/Banner";
 import Services from "./services/Services";
-
-function Footer() {
-    return null;
-}
+import Footer from "./footer/Footer";
 
 function App() {
     return (
@@ -18,7 +15,7 @@ function App() {
             <div className={"container"}>
                 <Services/>
             </div>
-            <div>
+            <div className={"footer-container container"}>
                 <Footer/>
             </div>
         </div>
