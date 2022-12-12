@@ -14,7 +14,7 @@ let services: Service[] = [{
     icon: "https://via.placeholder.com/150"
 }, {
     name: "UI/UX Design",
-    description: "Making your product look great",
+    description: "Having a great product isn't enough if no one can use it. We design for usability across all devices to ensure your product is not only functional, but easy to use.",
     icon: "https://via.placeholder.com/150"
 }]
 

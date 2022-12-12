@@ -14,6 +14,7 @@ export default function Banner() {
                 <Player
                     loop
                     autoplay
+                    speed={0.5}
                     src={"https://assets5.lottiefiles.com/packages/lf20_lMdZ2NUeMB.json"}/>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
