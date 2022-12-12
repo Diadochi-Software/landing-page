@@ -7,7 +7,6 @@
 }
 
 .services-header {
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,7 +45,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: baseline;
+        align-items: center;
+        width: 100%;
         flex-wrap: wrap;
     }
 
