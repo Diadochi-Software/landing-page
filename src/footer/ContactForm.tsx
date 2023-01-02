@@ -20,7 +20,7 @@ export default function ContactForm() {
         );
     else
         return (
-            <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" target="_blank">
+            <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
                 <input type="text" placeholder="Your name" name="name" required/>
                 <input type="email" placeholder="Email" name="email" required/>
                 <textarea placeholder="Your message" name="message" required/>
